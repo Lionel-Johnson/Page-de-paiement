@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Poly:ital@0;1&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.top{
+  width:100%;
+  height: 200px;
+  background-image: linear-gradient( to right, hsl(184, 100%, 50%), #19a3ff );
+  border-start-start-radius: 10px;
+  align-items:center;
+  flex-direction: column;
+  display:flex;
+  
+}
+
+.paie{
+  margin-left: -20px;
+  margin-top: 90px;
+  color: white;
+  font-family: akaya Kanadaka;
+
+}
+.form{
+  height: 500px;
+  width: 65%;
+  margin-left: 8.3vh;
+  background-color: white;
+  margin-top: -80px;
+  border-radius: 10px;
+  border: 0.1px solid hsl(0, 0%, 29%);
+  box-shadow: 5px 10px #61dafb;
+}
+input {
+  margin-left: 25px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+::placeholder {
+  font-family: Akaya Kanadaka;
+}
+
+.image{
+  display: flex;
+  height: 25px;
+  margin-left: 25px;
+}
+ 
+input{
+  display: flex;
+  font-size: 14px;
+  width: 210px;
+}
+label{
+  margin-left: 25px;
+  font-size: 12px;
+}
+.finale{
+  display: flex;
+  flex-direction: row;
+}
+
+.labelexpire{
+  display: flex;
+  position: absolute;
+  font-size: 10px;
+  margin-left: 90px;
+}
+.datexpire{
+  display: flex;
+  position: relative;
+  font-size: 10px;
+  width: 90px;
+  height: 20px;
+  margin-top: 50px;
+  margin-left: 115px; 
+}
+.datexpire2{
+  font-size: 10px;
+  width: 70px;
+  height: 20px;
+  margin-left: -75px;
+  margin-top: 50px;
+}
+
+.field-1{
+  display: flex;
+  margin-top: 20px;
+  margin-left: -100px;
+  width: 200px;
+}
+.field-2{
+  display: flex;
+  margin-right: -30px;
+  width: 200px;
+  margin-top: 20px;
+}
+
+button{
+  display: flex;
+  position: absolute;
+  text-align: right;
+  background-color: #19a3ff;
+  color: white;
+  font-family:akaya kanadaka;
+  margin-left: 80px;
+  border-radius: 5px;
+  height: 25px;
+  width: 100px;
+  margin-top: 20px;
+  margin-right: -80px;
+}
+.credit{
+  display: flex;
+  height: 20px;
+  margin-left: 210px;
+  margin-top: -2.5vh;
+}
+.fluid {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-right: 10px;
+}
+.fluid span{
+  margin-left: 30px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
